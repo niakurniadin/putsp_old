@@ -9,29 +9,27 @@
                 
                 <div id="navbar-collapse" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav mr-auto">
-                      <li class="nav-item active">
-                          <a href="/" class="nav-link dropdown-toggle" data-toggle="dropdown">Home </i></a>                          
-                      </li>
+                      <li class="nav-item active"><a href="<?=base_url()?>" class="nav-link">Home </i></a></li>
                       
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Layanan <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="">Pengukuran Topografi</a></li>
-                            <li><a href="">Pemetaan Foto Udara</a></li>
-                            <li><a href="">Pengukuran dan Pembuatan Peta</a></li>
-                            <li><a href="">Pengolahan Data</a></li>
+                            <li><a href="<?=base_url()?>layanan/topografi">Pengukuran Topografi</a></li>
+                            <li><a href="<?=base_url()?>layanan/fotoudara">Pemetaan Foto Udara</a></li>
+                            <li><a href="<?=base_url()?>layanan/pengukuran">Pengukuran dan Pembuatan Peta</a></li>
+                            <li><a href="<?=base_url()?>layanan/pengolahan">Pengolahan Data</a></li>
                           </ul>
                       </li> 
               
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Permohonan <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="">Ajukan Permohonan</a></li>
-                            <li><a href="">Status Permohonan</a></li>
+                            <li><a href="<?=base_url()?>permohonan/ajukan">Ajukan Permohonan</a></li>
+                            <li><a href="<?=base_url()?>permohonan/status">Status Permohonan</a></li>
                           </ul>
                       </li>
                             
-                      <li class="nav-item"><a class="nav-link" href="">Tentang PUT</a></li>
+                      <li class="nav-item"><a class="nav-link" href="<?=base_url()?>about">Tentang PUT </a></li>
                     </ul>
                 </div>
               </nav>
