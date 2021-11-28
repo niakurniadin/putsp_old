@@ -28,17 +28,17 @@
                       </div>
                     </div>
                   </li>
-                  <li class="last">
+                  <!-- <li class="last">
                     <div class="info-box last">
                       <div class="info-box-content">
                           <p class="info-box-title">Global Certificate</p>
                           <p class="info-box-subtitle">ISO 0000:0000</p>
                       </div>
                     </div>
-                  </li>
-                  <li class="header-get-a-quote">
+                  </li> -->
+                  <!-- <li class="header-get-a-quote">
                     <a class="btn btn-primary" href="<?=base_url()?>permohonan/ajukan">Permohonan</a>
-                  </li>
+                  </li> -->
                 </ul><!-- Ul end -->
             </div><!-- header right end -->
           </div><!-- logo area end -->
