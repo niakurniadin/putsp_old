@@ -7,8 +7,8 @@
           <div class="col-lg-4 col-md-6 footer-widget footer-about">
             <h3 class="widget-title">About Us</h3>
             <img loading="lazy" width="200px" class="footer-logo" src="<?=base_url()?>assets/template/images/footer-logo_put3.png" alt="Constra">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
-              labore et dolore magna aliqua.</p>
+            <p style="text-align: justify">PUT Survei Pemetaan mengakomodir pelaksanaan kegiatan survei dan pemetaan serta penyajian data dengan ketelitian tinggi.
+              Juga berfungsi sebagai sarana peningkatan SDM dan peningkatan kualitas sarana dan prasarana survei dan pemetaan</p>
             <div class="footer-social">
               <ul>
                 <li><a href="https://facebook.com" aria-label="Facebook"><i
@@ -23,12 +23,13 @@
 
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Working Hours</h3>
-            <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-              Hotline and Contact form.
-              <br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
-              <br> Saturday: <span class="text-right">12:00 - 15:00</span>
-              <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
+            <div class="working-hours" style="text-align: justify">
+              Jam operasional PUT Survei dan Pemetaan selama 7 hari dalam sepekan, kecuali hari libur.
+              Untuk keperluan tertentu, silakan hubungi kami via kontak WhatsApp.
+              
+              <br><br> Senin - Jum'at: <span class="text-right">09:00 - 16:00 </span>
+              <br> Sabtu: <span class="text-right">12:00 - 15:00</span>
+              <br> Minggu dan Hari Libur: <span class="text-right">09:00 - 12:00</span>
             </div>
           </div><!-- Col end -->
 
@@ -37,7 +38,7 @@
             <ul class="list-arrow">
               <li><a href="<?=base_url()?>layanan/topografi">Pengukuran Topografi</a></li>
               <li><a href="<?=base_url()?>layanan/fotoudara">Pemetaan Foto Udara</a></li>
-              <li><a href="<?=base_url()?>layanan/pengukuran">Pengukuran dan Pembuatan Peta</a></li>
+              <li><a href="<?=base_url()?>layanan/bm">Pengamatan dan Pembuatan BM</a></li>
               <li><a href="<?=base_url()?>layanan/pengolahan">Pengolahan Data</a></li>
             </ul>
           </div><!-- Col end -->

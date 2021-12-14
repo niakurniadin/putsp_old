@@ -10,4 +10,3 @@ class About extends CI_Controller {
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
 }
-/* End of file Home.php */

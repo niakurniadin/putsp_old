@@ -1,11 +1,11 @@
 <section id="main-container" class="main-container">
   <div class="container">
     <div class="row">
-        <div class="col-lg-6">
-          <h3 class="column-title">Tentang Pusat Unggulan Teknologi Survey dan Pemetaan</h3>
-          <p>when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-          <blockquote><p>Semporibus autem quibusdam et aut officiis debitis aut rerum est aut optio cumque nihil necessitatibus autemn ec tincidunt nunc posuere ut</p></blockquote>
-          <p>He lay on his armour-like  back, and if he lifted. ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing.</p>
+        <div class="col-lg-6" style="text-align: justify">
+          <h3 class="column-title" style="text-align: left">Tentang Pusat Unggulan Teknologi Survey dan Pemetaan</h3>
+          <p>Pusat Unggulan Teknologi Survei dan Pemetaan merupakan salah satu Unit Pelaksana Teknis (UPT) di Politeknik Pertanian Negeri Samarinda.</p>
+          <p>PUT Survei dan Pemetaan adalah sebuah unit yang dapat mengakomodir pelaksanaan kegiatan survei dan pemetaan serta penyajian data dengan ketelitian tinggi.</p>
+          <p>PUT ini juga berfungsi sebagai sarana peningkatan kompetensi Sumber Daya Manusia dan peningkatan kualitas sarana dan prasarana survei dan pemetaan.</p>
 
         </div><!-- Col end -->
 

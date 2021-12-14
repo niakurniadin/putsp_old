@@ -29,11 +29,11 @@ class Layanan extends CI_Controller {
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
 
-    public function pengukuran()
+    public function bm()
     {
         $data= array(
-            'judul' => 'Pengukuran dan Pembuatan Peta - PUT Survey dan Pemetaan',
-            'content' => 'layanan/pengukuran'
+            'judul' => 'Pengamatan dan Pembuatan BM - PUT Survey dan Pemetaan',
+            'content' => 'layanan/bm'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }

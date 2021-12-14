@@ -1,3 +1,4 @@
+
 <section id="main-container" class="main-container">
   <div class="container">
   <div class="row">
@@ -5,17 +6,23 @@
         <h3 class="column-title">Form Permohonan Pengolahan Data</h3>
         <!-- contact form works with formspree.io  -->
         <!-- contact form activation doc: https://docs.themefisher.com/constra/contact-form/ -->
-        <form id="contact-form" action="#" method="post" role="form">
+
+        <!-- <form id="contact-form" action="#" method="post" role="form" enctype="multipart/form-data"> -->
+        <?php echo form_open_multipart('permohonan/add') ?>
           <div class="error-container"></div>
           <div class="row">
             <div class="col-md-4">
+              <div class="form-group">
+                <label>No Reg *</label>
+                <input class="form-control form-control-name" name="noreg" id="noreg" value="<?= $random; ?>" disabled required>
+              </div>
               <div class="form-group">
                 <label>Nama *</label>
                 <input class="form-control form-control-name" name="nama" id="nama" placeholder="Nama Pemohon" type="text" required>
               </div>
               <div class="form-group">
                 <label>Email *</label>
-                <input class="form-control form-control-email" name="email" id="email" placeholder="Email" type="email"
+                <input class="form-control form-control-email" name="email" id="email" placeholder="Email Pemohon" type="email"
                 required>
               </div>
               <div class="form-group">
@@ -37,8 +44,8 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label>Data</label>
-                    <input class="form-control" name="data" id="data" placeholder="Pilih Data" type="file" required>
+                    <label for="varchar">Data (format *.zip)</label>
+                    <input class="form-control" name="rawdata" id="rawdata" placeholder="Pilih Data" type="file" accept=".zip" required>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -64,11 +71,13 @@
               </div>
             </div>
 
-          </div>          
-        </form>
+          </div>        
+        <?php echo form_close() ?>  
+        <!-- </form> -->
       </div>
 
     </div><!-- Content row -->
 
   </div><!-- Container end -->
 </section><!-- Main container end -->
+
